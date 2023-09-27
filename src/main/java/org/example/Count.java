@@ -42,4 +42,9 @@ public class Count {
     public int hashCode() {
         return Objects.hash(instanceCount);
     }
+
+    @Override
+    public String toString() {
+        return "Total Count = " + totalCount + " | Instance Count = " + instanceCount;
+    }
 }
