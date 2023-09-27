@@ -23,6 +23,10 @@ public class Main {
         Count.incrementTotalCount();
         Count.incrementTotalCount();
 
+        System.out.println(count1);
+        System.out.println(count2);
+        System.out.println(count3);
+
 
 
 
