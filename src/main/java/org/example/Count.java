@@ -30,6 +30,9 @@ public class Count {
         totalCount++;
     }
 
+    public void incrementInstanceCount() {
+        this.instanceCount++;
+    }
 
     @Override
     public boolean equals(Object o) {
